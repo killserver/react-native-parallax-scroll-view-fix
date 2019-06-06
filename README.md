@@ -9,7 +9,7 @@ Remember to pass a Animated component to `renderScrollComponent`, by default it 
 
 # Example
 ```js
-import ParallaxScrollView from 'react-native-parallax-scroll-view';
+import ParallaxScrollView from 'react-native-parallax-scroll-view-fix';
 import CustomScrollView from 'custom-scroll-view'
 
 const AnimatedCustomScrollView = Animated.createAnimatedComponent(CustomScrollView)
