@@ -5,7 +5,7 @@
 	"main": "src/index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/killserverx100/react-native-parallax-scroll-view-fix"
+		"url": "https://github.com/killserver/react-native-parallax-scroll-view-fix"
 	},
 	"files": [
 		"src",
