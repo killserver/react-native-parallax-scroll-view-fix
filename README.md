@@ -1,6 +1,6 @@
-[![](https://img.shields.io/npm/dm/react-native-parallax-scroll-view.svg?style=flat-square)](https://www.npmjs.com/package/react-native-parallax-scroll-view)
+[![](https://img.shields.io/npm/dm/react-native-parallax-scroll-view-fix.svg?style=flat-square)](https://www.npmjs.com/package/react-native-parallax-scroll-view-fix)
 
-[![NPM](https://nodei.co/npm/react-native-parallax-scroll-view.png)](https://www.npmjs.com/package/react-native-parallax-scroll-view)
+[![NPM](https://nodei.co/npm/react-native-parallax-scroll-view-fix.png)](https://www.npmjs.com/package/react-native-parallax-scroll-view-fix)
 
 # Rodrigocs - Animated Driver
 
@@ -35,7 +35,7 @@ render() {
 }
 ```
 
-# react-native-parallax-scroll-view
+# react-native-parallax-scroll-view-fix
 
 A `ScrollView`-like component that:
 
@@ -48,10 +48,8 @@ A `ScrollView`-like component that:
 ## Installation
 
 ```
-$ npm install react-native-parallax-scroll-view --save
+$ npm install react-native-parallax-scroll-view-fix --save
 ```
-
-**Note:** For React Native 0.19.0 and earlier, you'll want to use `react-native-parallax-scroll-view@0.17.4`. Version `0.18.0` changes the scrolling API to be compatible with React Native 0.20.0.
 
 ## Demo
 
@@ -63,7 +61,7 @@ $ npm install react-native-parallax-scroll-view --save
 ## Basic Usage
 
 ```js
-import ParallaxScrollView from 'react-native-parallax-scroll-view';
+import ParallaxScrollView from 'react-native-parallax-scroll-view-fix';
 
 // Inside of a component's render() method:
 render() {
@@ -119,18 +117,6 @@ The `ParallaxScrollView` component adds a few additional properties, as describe
 | `contentContainerStyle` | `object` | No | These styles will be applied to the scroll view content container which wraps all of the child views. (same as for [ScrollView](https://facebook.github.io/react-native/docs/scrollview.html#contentcontainerstyle)) |
 | `outputScaleValue` | `number` | No | The value for the scale interpolation output value, default `5` |
 | `scrollEvent` | `func` | No | Callback to recieve the animated scroll event values |
-
-
-## Latest changes
-
-### 0.20.1
-- Added prop to change interpolated Scale Output Value
-
-### 0.20.0 // Rodrigocs
-- Now uses native driver, and tested with React Native 0.46.0
-- Adds `useNativeDriver` to improve performance, but renderScrollComponent must be a Animated component ( ie: Animated.createAnimatedComponent(component))
-
-See full changelog [here](./CHANGELOG.md).
 
 ## Contributing
 
